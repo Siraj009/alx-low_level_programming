@@ -17,6 +17,7 @@ if (n > 0)
 printf("%d is positive\n", n);/**string*/
 }
 else if (n < 0)
+{
 printf("%d is negative\n", n);/**string*/
 }
 else
