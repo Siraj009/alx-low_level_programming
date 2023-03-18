@@ -6,13 +6,12 @@
  */
 int main(void)
 {
-int i = 0;
+char alpha[] = "abcdfghijklmnoprstuvwxyz\n";
+int i;
 
-while (i < 10)
+for (i = 0; i < 25; i++)
 {
-printf("%d", i);
-i++;
+putchar(alpha[i]);
 }
-printf("\n");
 return (0);
 }
