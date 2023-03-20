@@ -7,10 +7,11 @@
 int main(void)
 {
 	char alpha[] = "a..z\n";
-	
-	for (alpha[] = 'a' ; alpha[] <= 'z' ; alpha[]++)
+	int i;
+
+	for (i = 'a' ; i <= 'z' ; i++)
 	{
-	putchar(alpha[]);
+	putchar(alpha[i]);
 
 	}
 
