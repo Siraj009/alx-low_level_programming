@@ -9,7 +9,7 @@ int main(void)
 	char alpha[] = "a..z\n";
 	int i;
 
-	for (i = a ; i <= z ; i++)
+	for (i = 0 ; i <= 27 ; i++)
 	{
 	putchar(alpha[i]);
 
