@@ -3,9 +3,9 @@
 /**
  * main - check the code
  *
- * Return: Always 0.
+ * This prints lower case alphabets
  */
-void print_alphabet(void)/** print small letter */
+void print_alphabet(void)/** this function prints lower case alphabets */
 	{
 		int i = 97;
 
